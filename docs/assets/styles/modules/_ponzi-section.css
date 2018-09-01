@@ -204,6 +204,9 @@
         }
     }
     
+    .preload {
+        display: none;
+    }
 }
 
 
