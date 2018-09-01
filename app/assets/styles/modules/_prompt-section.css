@@ -1,0 +1,46 @@
+.prompt-section {
+    background: $souziOrangeBg;
+    padding: 20px 15px;
+    position: relative;
+    height: 265px;
+
+    p {
+            /* position: absolute;
+            right: 10px; */
+            color: #fff;
+            text-align: center;
+            width: 240px;
+            height: 62px;
+            max-width: 260px;
+            font-size: 1.5rem; 
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+
+    &__icon{
+        img {
+            margin: 10px auto 0 auto;
+            padding: 0;
+            background-position: 0 0;
+            display: block;
+        }
+    }
+    &__guide {
+        margin: 0px;
+        padding: 5px;
+        border: 3px solid $souziOrange;
+        box-shadow: 5px 10px $souziOrangeBgDeep;
+        border-radius: 10px;
+        padding-bottom: 20px;
+    }
+
+    &__wrapper {
+        margin: 0px;
+        padding: 5px;
+        border: 3px solid $souziOrange;
+        box-shadow: 5px 10px $souziOrangeBgDeep;
+        border-radius: 10px;
+        padding-bottom: 50px;
+    }
+}

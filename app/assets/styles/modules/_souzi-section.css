@@ -1,0 +1,72 @@
+.souzi-section {
+    background: $souziOrangeBg;
+    padding: 20px 15px;
+    position: relative;
+    height: 950px;
+
+    &__talkbox {
+        width: 100%;
+        height: 780px;
+        margin-left: auto;
+        margin-right: 0;
+        p {
+            /* position: absolute;
+            right: 10px; */
+            background: rgba(255, 255, 255, .2);
+            border-radius: 10px;
+            color: #fff;
+            text-align: left;
+            max-width: 320px;
+            padding: 10px 15px;
+            font-size: 1.4rem; 
+            text-indent: 2rem;
+            transform-origin: 100% 100%;
+            transform: scale(0.2) translateX(-10px) translateY(-10px);
+            opacity: 0;
+            transition: all .8s ease-in-out;
+        }
+    }
+    .talk-is-visible {
+        transform: scale(1) translateX(0) translateY(0);
+        opacity: 1;
+    }
+
+
+    &__icon{
+        position: fixed;
+        opacity: 1;
+        bottom: -5%;
+        right: -10%;
+        transform: translateX(100%) translateY(100%) rotate(-45deg);
+        transition: all .5s ease-in;
+        img {
+            background-position: 0 0;
+            width: 150px;
+            height: auto;
+            display: block;
+        }
+    }
+
+    .icon-is-visible {
+        opacity: 1;
+        transform: translateX(0) translateY(0) rotate(-45deg);
+    }
+
+    &__guide {
+        margin: 0px;
+        padding: 5px;
+        border: 3px solid $souziOrange;
+        box-shadow: 5px 10px $souziOrangeBgDeep;
+        border-radius: 10px;
+        padding-bottom: 20px;
+    }
+
+    &__wrapper {
+        margin: 0px;
+        padding: 5px;
+        border: 3px solid $souziOrange;
+        box-shadow: 5px 10px $souziOrangeBgDeep;
+        border-radius: 10px;
+        padding-bottom: 50px;
+    }
+}
