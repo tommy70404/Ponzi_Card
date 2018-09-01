@@ -75,19 +75,19 @@
     }
 
     .a {
-        background: url('/assets/images/banwan-talkbox-1.png') top left no-repeat;
+        background: url('../../assets/images/banwan-talkbox-1.png') top left no-repeat;
     }
     .b {
-        background: url('/assets/images/banwan-talkbox-2.png') top left no-repeat;
+        background: url('../../assets/images/banwan-talkbox-2.png') top left no-repeat;
     }
     .c {
-        background: url('/assets/images/banwan-talkbox-3.png') top left no-repeat;
+        background: url('../../assets/images/banwan-talkbox-3.png') top left no-repeat;
     }
     .d {
-        background: url('/assets/images/banwan-talkbox-4.png') top left no-repeat;
+        background: url('../../assets/images/banwan-talkbox-4.png') top left no-repeat;
     }
     .e {
-        background: url('/assets/images/banwan-talkbox-5.png') top left no-repeat;
+        background: url('../../assets/images/banwan-talkbox-5.png') top left no-repeat;
     }
     
 }
