@@ -8,7 +8,7 @@ var onclick = new Onclick();
 /* Waypoint Controller */
 banwanWaypoint.popUpTalk(70, -10);
 banwanWaypoint.popUpIcon(75, 20);
-souziWaypoint.popUpTalk(70, -10);
+souziWaypoint.popUpTalk(75, -10);
 souziWaypoint.popUpIcon(46, 20);
 souziWaypoint.popUpWishIcon(110, 0);
 

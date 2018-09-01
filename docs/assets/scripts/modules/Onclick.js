@@ -62,16 +62,6 @@ var changeText = (currentNode) => {
 }
 
 var changeBG = (currentNode, that) => {
-    // const position = currentNode.getAttribute('class').split('-')[2];
-    // console.log(position);
-    // console.log(that.ponziWishBG.style.background);
-    // if(position == 'right'){
-    //     that.ponziWishBG.classList.add('wish-bg-2');
-    // }else if(position == 'mid'){
-    //     that.ponziWishBG.classList.add('wish-bg-0');
-    // }else if(position == 'left'){
-    //     that.ponziWishBG.classList.add('wish-bg-1');
-    // }
     that.clickNum += 1;
     if(that.clickNum === 1){
         that.ponziWishBG.classList.add('wish-bg-2');
@@ -81,7 +71,11 @@ var changeBG = (currentNode, that) => {
         that.ponziWishBG.classList.add('wish-bg-0');
         Array.from(that.shootingStarIcon).forEach((node,index) => {
             node.classList.add('icon-is-animating');
-        })
 
+        })
+    }else if(that.clickNum === 4){
+        that.ponziWishBG.classList.add('wish-bg-1');
+        that.ponziWishBG.classList.remove('wish-bg-0','wish-bg-1','wish-bg-2');
+        that.clickNum = 0;
     }
 }

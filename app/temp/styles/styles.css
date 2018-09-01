@@ -265,7 +265,7 @@ menu {
   display: none;
 }body {
     margin: 0;
-    font-family: 'Tangerine', 'cwTeXYen','微軟正黑體';
+    font-family:  'cwTeXYen','微軟正黑體';
     width:100%;
     overflow-X: hidden;
     color: #333333;
@@ -392,7 +392,7 @@ menu {
     background: #ff9f43;
     padding: 20px 15px;
     position: relative;
-    height: 950px;
+    height: 1200px;
 }.souzi-section__talkbox {
         width: 100%;
         height: 780px;
