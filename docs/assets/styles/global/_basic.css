@@ -1,0 +1,20 @@
+@import 'normalize.css';
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body {
+    margin: 0;
+    font-family: 'Tangerine', 'cwTeXYen','微軟正黑體';
+    width:100%;
+    overflow-X: hidden;
+    color: #333333;
+}
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.talk-section {
+    background-color: #ffffff;
+}

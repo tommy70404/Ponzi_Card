@@ -1,0 +1,215 @@
+.ponzi-section {
+    position: relative;
+    background-color: #06062b;
+    /* background: #06062B; */
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 564px;
+    overflow-x: hidden;
+
+
+
+    .wish-bg {
+        background: 
+                    url('../../assets/images/ponzi-transp-wish@0.5x.png') no-repeat,
+                    url('../../assets/images/wish-background-3.png') no-repeat,
+                    url('../../assets/images/moon-icon@0.5x.png') no-repeat;
+        background-position: 
+                    50% 110%,
+                    center 70%,
+                    90% 10%;
+        background-size:
+                    auto,
+                    100%,
+                    auto;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease-in;
+    }
+
+    .wish-bg-2 {
+        background: 
+                    url('../../assets/images/ponzi-transp-wish@0.5x.png') no-repeat,
+                    url('../../assets/images/wish-background-2@0.5x.png') no-repeat,
+                    url('../../assets/images/moon-icon@0.5x.png') no-repeat;
+        background-position: 
+                    50% 110%,
+                    center 70%,
+                    90% 10%;
+        background-size:
+                    auto,
+                    100%,
+                    auto;
+
+    }
+
+    .wish-bg-1 {
+        background: 
+                    url('../../assets/images/ponzi-transp-wish@0.5x.png') no-repeat,
+                    url('../../assets/images/wish-background-1.png') no-repeat,
+                    url('../../assets/images/moon-icon@0.5x.png') no-repeat;
+
+        background-position: 
+                    50% 110%,
+                    center 70%,
+                    90% 10%;
+        background-size:
+                    auto,
+                    100%,
+                    auto;
+
+    }
+
+    .wish-bg-0 {
+        background: 
+                    url('../../assets/images/ponzi-transp-wish@0.5x.png') no-repeat,
+                    url('../../assets/images/wish-background-0.png') no-repeat,
+                    url('../../assets/images/moon-icon@0.5x.png') no-repeat;
+        background-position: 
+                    50% 110%,
+                    center 70%,
+                    90% 10%;
+        background-size:
+                    auto,
+                    100%,
+                    auto;
+
+    }
+
+
+    .wish-icon-wrapper {
+        position: absolute;
+        width: 138px;
+        height: 87px;
+        overflow: hidden;
+        top: 10%;
+        left: 10%;
+        .wish-icon {
+            background: url('../../assets/images/wish-icon.svg') no-repeat;
+            width: 138px;
+            height: 87px;
+            transform: translateY(100%);
+            opacity:0;
+            transition: all .7s ease-in-out;
+        }
+
+        .icon-is-visible {
+            transform: translateY(0);
+            opacity:1;
+        }
+
+    }
+
+    .wish-shooting-star {
+        width: 91px;
+        height: 46px;
+        .shooting-star-icon-1 {
+            position: absolute;
+            top: 45%;
+            left: 37%;
+            background: url('../../assets/images/shooting-star-blue@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 2s;
+            animation-delay: .8s;
+        }
+        .shooting-star-icon-2 {
+            position: absolute;
+            top: 10%;
+            left: 47%;
+            background: url('../../assets/images/shooting-star-yellow@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 1.5s;
+            animation-delay: 1s;
+        }
+        .shooting-star-icon-3 {
+            position: absolute;
+            top: 17%;
+            left: 56%;
+            background: url('../../assets/images/shooting-star-red@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: .8s;
+            animation-delay: .1s;
+        }
+        .shooting-star-icon-4 {
+            position: absolute;
+            top: 33%;
+            left: 76%;
+            background: url('../../assets/images/shooting-star-purple@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 1.3s;
+            animation-delay: .5s;
+        }
+        .shooting-star-icon-5 {
+            position: absolute;
+            top: 7%;
+            left: 80%;
+            background: url('../../assets/images/shooting-star-purple@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 2s;
+            animation-delay: .5s;
+        }
+        .shooting-star-icon-6 {
+            position: absolute;
+            top: 33%;
+            left: 16%;
+            background: url('../../assets/images/shooting-star-purple@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 3s;
+            animation-delay: .5s;
+        }
+        .shooting-star-icon-7 {
+            position: absolute;
+            top: 22%;
+            left: 66%;
+            background: url('../../assets/images/shooting-star-purple@0.5x.png') no-repeat;
+            width: 91px;
+            height: 46px;
+            opacity: 0;
+            animation-duration: 5s;
+            animation-delay: .5s;
+        }
+    
+        .icon-is-animating {
+            animation-name: shootingStar;
+            animation-iteration-count: infinite;
+        }
+    }
+    
+    &__icon {
+        opacity: 1;
+        position: absolute;
+        bottom: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+        img {
+            width: 150px;
+            height: auto;
+            z-index: 1;
+        }
+    }
+    
+}
+
+
+@keyframes shootingStar {
+    0% {transform: translateX(170%) translateY(-100%); opacity: 1;}
+    100% {transform: translateX(-153%) translateY(90%);  opacity: 0;} 
+}
+
+

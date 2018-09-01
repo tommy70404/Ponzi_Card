@@ -1,0 +1,78 @@
+.footer {
+    position: relative;
+    background: $souziOrange;
+    height: 620px;
+    overflow-x: hidden; 
+
+    .ground {
+        display: block;
+        position: absolute;
+        background: $souziOrangeBg;
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+    }
+
+    .sun {
+        background: url('../../assets/images/background-sun.svg') no-repeat;
+        background-position: 50% 15%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .plant {
+        background: url('../../assets/images/plant.svg') no-repeat;
+        background-size: cover;
+        position: absolute;
+        bottom: 15%;
+        right: -5%;
+        width: 100px;
+        height: 200px;
+    }
+
+    .icon-wrapper {
+        display: block;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-43%);
+        width: 350px;
+        height: 200px;
+        margin: 0;
+
+        .icon-souzi {
+            display: inline-block;
+            width: 35%;
+            height: auto;
+            transform: translateX(34px);
+            img {
+                width: 100%;
+            }
+        }
+
+        .icon-banwan {
+            display: inline-block;
+            width:10%;
+            height: auto;
+            transform: translateY(20px);
+            img {
+                width: 100%;
+            }
+        }
+
+        .icon-ponzi {
+            display: inline-block;
+            width: 40%;
+            height: auto;
+            transform: translateX(-40px) translateY(-5px);
+            img {
+                width: 100%;
+            }
+        }
+
+    
+    }
+
+    
+}
